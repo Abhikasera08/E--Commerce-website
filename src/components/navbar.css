@@ -1,0 +1,42 @@
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    background-color: #4CAF50;
+    padding: 0 20px;
+}
+
+.ul-listitem {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.listitem1 {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.listitem1:hover {
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
